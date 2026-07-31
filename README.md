@@ -1,9 +1,14 @@
 > 📚 Documentación Completa del Proyecto — Predicción Inmobiliaria
-> Predicción de precios de casas Aplicación desarrollada en el Diplomado de Python Fullstack. 
+> 
+> Predicción de precios de casas Aplicación desarrollada en el Diplomado de Python Fullstack.
+> 
 > Repositorio GitHub: https://github.com/faustoyg/Inmueble
-> Flujo: Web scraping → CSV → Modelo PKL → FastAPI → Streamlit
-> **Objetivo:** Predecir el precio de venta de inmuebles en Ecuador usando Machine Learning  
-> **Fecha:** Julio 2026
+>
+>  Flujo: Web scraping → CSV → Modelo PKL → FastAPI → Streamlit
+>
+>  **Objetivo:** Predecir el precio de venta de inmuebles en Ecuador usando Machine Learning  
+>
+>  **Fecha:** Julio 2026
 
 ---
 
@@ -131,14 +136,21 @@ api_v1.py
 
 1. Abrir un CMD en windows
 2. Dirigirse al directorio en donde esta carpeta del proyecto
- cd .....\Inmueble
-3. Activar un entorno virtual
+```
+   cd .....\Inmueble
+```
+4. Activar un entorno virtual
+```
     venv\Scripts\activate
-4. Ejecutar api_v1
+```
+6. Ejecutar api_v1
+```
     python api_v1.py
-5. Verificar si esta levantado servidor de FastAPI
+```
+8. Verificar si esta levantado servidor de FastAPI
+```
     http://localhost:8000/docs#
-
+```
 ### Nota importante en v1
 
 | Limitación             | Consecuencia |
@@ -152,14 +164,23 @@ api_v1.py
 
 ### Ejecución
 
-1. Abrir un nuevo CMD en windows
+1. Abrir un nuevo CMD en Windows
 2. Dirigirse al directorio en donde esta carpeta del proyecto
- cd .....\Inmueble
-3. Instalar librerias si no se lo ha hecho
-# ── Interfaz gráfica (Streamlit) ──────────────────────────────────────────────
-streamlit==1.44.1       # Framework para apps web interactivas de datos
-requests==2.32.4        # Cliente HTTP para consumir la API desde Streamlit
-4. Ejecutar streamlit_v1
-    streamlit run streamlit_v1.py
+```
+   cd .....\Inmueble
+```
+3. Instalar librerías si no se lo ha hecho
+
+   Interfaz gráfica (Streamlit):
+```
+   streamlit==1.44.1       # Framework para apps web interactivas de datos
+   requests==2.32.4        # Cliente HTTP para consumir la API desde Streamlit
+```
+4. Ejecutar `streamlit_v1`
+```
+   streamlit run streamlit_v1.py
+```
 5. Se puede observar desde el navegador. Por ejemplo:
-    Local URL: http://localhost:8501
+```
+   Local URL: http://localhost:8501
+```
